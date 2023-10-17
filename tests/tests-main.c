@@ -1,4 +1,4 @@
-#include "../main.c" // This includes the entire game application.
+#include "../game_logic.h"
 #include <assert.h>
 #include <string.h>
 
