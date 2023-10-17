@@ -7,10 +7,8 @@ project(tic-tac-toe)
 enable_testing()
 
 # Specify your executable
-add_executable(main src/main.c)
+add_executable(main main.c)
 
-# Add test executable
-add_executable(tests tests/test_main.c)
+# Include the tests subdirectory
+add_subdirectory(tests)
 
-# Add a test to the project
-add_test(NAME YourTest COMMAND tests)
