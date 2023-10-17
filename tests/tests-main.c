@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "../game_logic.h"
 #include <assert.h>
 #include <string.h>
