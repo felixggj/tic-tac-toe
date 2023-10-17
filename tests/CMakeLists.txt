@@ -1,14 +1,11 @@
-# Add test executable target. Assuming you have different test files for different scenarios.
-add_executable(test_draw test_draw.c)
-add_executable(test_invalid_move test_invalid_move.c)
-add_executable(test_win test_win.c)
+# Add a single test executable target since all tests are in one file now.
+add_executable(tests_main tests-main.c)
 
 # Link with the main executable if needed. This is necessary if your tests depend on functions from your main project.
-target_link_libraries(test_draw ${CMAKE_SOURCE_DIR}/main.c)
-target_link_libraries(test_invalid_move ${CMAKE_SOURCE_DIR}/main.c)
-target_link_libraries(test_win ${CMAKE_SOURCE_DIR}/main.c)
+# Note: This assumes your main project creates a library target that can be linked with. If your main project doesn't
+# create a library, you might need to include the necessary source files directly in your test executable.
+target_link_libraries(tests_main ${CMAKE_SOURCE_DIR}/main.c)
 
-# Add the tests so CTest can recognize them
-add_test(NAME DrawTest COMMAND test_draw)
-add_test(NAME InvalidMoveTest COMMAND test_invalid_move)
-add_test(NAME WinTest COMMAND test_win)
+# Register the test executable with CTest. This makes it so that the "ctest" command will run this executable as a test.
+add_test(NAME MainTests COMMAND tests_main)
+
