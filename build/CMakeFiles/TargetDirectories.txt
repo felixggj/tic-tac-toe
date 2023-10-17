@@ -1,8 +1,0 @@
-/Users/felix/Documents/Master folder/IE university/All Courses/3rd year/1st semester/Programming II/assignments/assignment1/build/CMakeFiles/main.dir
-/Users/felix/Documents/Master folder/IE university/All Courses/3rd year/1st semester/Programming II/assignments/assignment1/build/CMakeFiles/test.dir
-/Users/felix/Documents/Master folder/IE university/All Courses/3rd year/1st semester/Programming II/assignments/assignment1/build/CMakeFiles/edit_cache.dir
-/Users/felix/Documents/Master folder/IE university/All Courses/3rd year/1st semester/Programming II/assignments/assignment1/build/CMakeFiles/rebuild_cache.dir
-/Users/felix/Documents/Master folder/IE university/All Courses/3rd year/1st semester/Programming II/assignments/assignment1/build/tests/CMakeFiles/tests_main.dir
-/Users/felix/Documents/Master folder/IE university/All Courses/3rd year/1st semester/Programming II/assignments/assignment1/build/tests/CMakeFiles/test.dir
-/Users/felix/Documents/Master folder/IE university/All Courses/3rd year/1st semester/Programming II/assignments/assignment1/build/tests/CMakeFiles/edit_cache.dir
-/Users/felix/Documents/Master folder/IE university/All Courses/3rd year/1st semester/Programming II/assignments/assignment1/build/tests/CMakeFiles/rebuild_cache.dir
