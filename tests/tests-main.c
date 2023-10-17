@@ -1,5 +1,6 @@
 #include "../main.c" // This includes the entire game application.
 #include <assert.h>
+#include <string.h>
 
 void test_draw() {
     // Initialize a game state representing a draw

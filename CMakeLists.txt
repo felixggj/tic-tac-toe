@@ -7,7 +7,7 @@ project(tic-tac-toe)
 enable_testing()
 
 # Specify your executable
-add_executable(main main.c)
+add_executable(main game_main.c game_logic.c)  # Compiles your program entry point with your game logic
 
 # Include the tests subdirectory
 add_subdirectory(tests)
